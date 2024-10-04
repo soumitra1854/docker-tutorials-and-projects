@@ -33,7 +33,7 @@
         --group-add $(getent group audio | cut -d: -f3) \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        cs378-lab3
+        soumitramaxx/cs378-lab3
     ```
 
 5. **Navigate to the Code Directory:**
