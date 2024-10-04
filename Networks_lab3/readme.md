@@ -40,7 +40,7 @@
 
     Once inside the container, navigate to the directory where the code is located:
     ```bash
-    cd /home/cs378/lab3
+    cd /home/soumitra/Downloads/lab3
     ```
 
 6. **Modify `messages.txt`:**
