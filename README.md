@@ -1,4 +1,4 @@
-## Docker-Tutorial
+# Docker-Tutorial
 
 This Readme file contains necessary commands used in Docker.
 
@@ -41,14 +41,25 @@ This Readme file contains necessary commands used in Docker.
 ### Working with Containers:
 - To run a container from an image (creating and starting):
   ```bash
-  docker run image-repo
+  docker run image-repo:tag # tag for any version (optional)
+  ```
+- To run a container in detached mode (background):
+  ```bash
+  docker run -d image-repo:tag
   ```
 - To run a container and enter into it (interactive mode):
   ```bash
   docker run -it name/image_id /bin/bash
   ```
   - Use `-itd` to run in interactive and detached mode.
-  
+- To run a container with a specific name:
+  ```bash
+  docker run --name container_name -d image-repo:tag
+  ```
+- To run a container with a specific port:
+  ```bash 
+  docker run -d -p host_port:container_port image-repo:tag
+  ```
 - To enter a running container: 
   ```bash
   docker exec -it container_id /bin/bash
@@ -78,6 +89,10 @@ This Readme file contains necessary commands used in Docker.
 - To view all containers (including stopped ones):
   ```bash
   docker ps -a
+  ```
+- To view the logs of a container:
+  ```bash
+  docker logs container_id
   ```
 
 ### Removing Containers:
