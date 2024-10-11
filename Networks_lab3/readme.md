@@ -33,14 +33,14 @@
         --group-add $(getent group audio | cut -d: -f3) \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        cs378-lab3
+        soumitramaxx/cs378-lab3
     ```
 
 5. **Navigate to the Code Directory:**
 
     Once inside the container, navigate to the directory where the code is located:
     ```bash
-    cd /home/cs378/lab3
+    cd /home/soumitra/Downloads/lab3
     ```
 
 6. **Modify `messages.txt`:**
