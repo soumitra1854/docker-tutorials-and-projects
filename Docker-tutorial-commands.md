@@ -21,6 +21,11 @@ This Readme file contains necessary commands used in Docker.
   ```
 
 ### Working with Images:
+- To build an image from a Dockerfile:
+  ```bash
+  docker build -t image_name:tag .
+  ```
+  - Use `.` if Dockerfile is in the current directory else specify the path of the Dockerfile.
 - To view all Docker images installed locally: 
   ```bash
   docker images

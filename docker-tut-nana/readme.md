@@ -6,6 +6,7 @@ This project demonstrates how to containerize a simple `server.js` application u
 1. **Create `server.js`**: A basic Node.js server application.
 2. **Dockerfile**: Define the Docker image with necessary dependencies.
 3. **Build Docker Image**: Use the Dockerfile to build the image.
-4. **Run Container**: Test the application by running the Docker container and mapping the ports.
+4. **Run Container**: Test the application by running the Docker container with appropriate port mappings. (port no. 3000 is used for this application)
+
 
 By following this tutorial, you will learn the basics of Docker and how to containerize a Node.js application.
