@@ -31,8 +31,4 @@ This repository is designed to help you get started with Docker. It includes:
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License.
-
 Happy Dockerizing!
