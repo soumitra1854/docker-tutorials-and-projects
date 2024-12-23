@@ -28,7 +28,6 @@ This repository is designed to help you get started with Docker. It includes:
     - Explore the project directories for practical examples.
 
 ## Contributing
-
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-Happy Dockerizing!
+Happy Dockerizing!😄
