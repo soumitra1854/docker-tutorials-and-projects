@@ -16,14 +16,15 @@ This repository is designed to help you get started with Docker. It includes:
 2. **Project Examples**: Two projects demonstrating how to containerize applications and deploy them on Docker Hub.
 
 ## Getting Started
-
-1. **Clone the Repository**:
+1. **Docker Installation in Ubuntu**
+    
+3. **Clone the Repository**:
     ```sh
     git clone https://github.com/soumitra1854/docker-tutorials-and-projects.git
     cd docker-tutorials-and-projects
     ```
 
-2. **Follow the Tutorial**:
+4. **Follow the Tutorial**:
     - Navigate to the [Docker Tutorial with Commands](Docker-tutorial-commands.md) to get started with Docker commands.
     - Explore the project directories for practical examples.
 
