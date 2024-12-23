@@ -16,7 +16,18 @@ This repository is designed to help you get started with Docker. It includes:
 2. **Project Examples**: Two projects demonstrating how to containerize applications and deploy them on Docker Hub.
 
 ## Getting Started
-1. **Docker Installation in Ubuntu**
+1. **Docker Installation and Setup in Ubuntu**:
+    - Follow this link to install Docker on Ubuntu: [Docker Installation](https://docs.docker.com/engine/install/ubuntu/)
+    - After installing Docker, run the following command to verify the installation:
+    ```sh
+    docker --version
+    ```
+2. **Docker Hub Account**:
+    - Create an account on Docker Hub: [Docker Hub](https://hub.docker.com/)
+    - After creating an account, run the following command to login to Docker Hub:
+    ```sh
+    docker login
+    ```
     
 3. **Clone the Repository**:
     ```sh
